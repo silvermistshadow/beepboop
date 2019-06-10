@@ -8,6 +8,17 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
+Specs:
+0: Program replaces 0 with "Beep!"
+  input: 0
+  output: "Beep!"
+1: Program replaces 1 with "Boop!"
+  input: 1
+  output: "Boop!"
+2: Numbers divisible by 3 replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+  input: 3
+  output: "I'm sorry, Dave. I'm afraid I can't do that."
+3: Listed from least to most important. The third will take precedence, and the others will only execute if the higher one(s) don't.
 ## Setup/Installation Requirements
 
 * _This is a great place_
