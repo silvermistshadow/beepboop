@@ -14,3 +14,7 @@ background-repeat: no-repeat;
 #outputErr {
   display: none;
 }
+
+.exclusion {
+  color: #000;
+}

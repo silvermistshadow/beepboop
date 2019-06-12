@@ -1,7 +1,8 @@
 //Back end logic
 const beep = "Beep!"
 const boop = "Boop!"
-const dave = "I'm sorry, Dave. I'm afraid I can't do that."
+var name;
+var dave = "I'm sorry, "+name+". I'm afraid I can't do that"
 
 var beepBoop = function(inputNum){
   var convArray = [];
@@ -31,6 +32,7 @@ $(document).ready(function(){
     event.preventDefault();
     $("#outputErr").hide();
     var inputNum = $("input#input").val();
+    name = $("input#nameInput").val();
     var outputNum = beepBoop(inputNum);
     if (outputNum != false) {
       $("#output").text(outputNum)
