@@ -8,9 +8,12 @@ var beepBoop = function(inputNum){
   var convArray = [];
   for (var x = 0; x <= inputNum; x++){
     var i = x.toString();
-    if (i.includes("1")){
+    if (((x % 3) == 0.0) && (x >= 3)) {
+        convArray.push(dave);
+    }
+    else if (i.includes("1")){
       convArray.push(boop);
-      console.log(convArray)
+      console.log(convArray);
     }
      else if (i.includes("0")) {
        convArray.push(beep);
