@@ -1,10 +1,9 @@
 //Back end logic
-const beep = "Beep!"
-const boop = "Boop!"
 var name;
-var dave = "I'm sorry, "+name+". I'm afraid I can't do that"
-
 var beepBoop = function(inputNum){
+  const beep = "Beep!"
+  const boop = "Boop!"
+  var dave = "I'm sorry, "+name+". I'm afraid I can't do that"
   var convArray = [];
   for (var x = 0; x <= inputNum; x++){
     var i = x.toString();
